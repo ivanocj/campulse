@@ -1,0 +1,38 @@
+/target/
+/.idea/
+/.vscode/
+*.iml
+.DS_Store
+
+# Private inventories and batch inputs. Only the reviewed, fabricated fixture is public.
+*.csv
+*.tsv
+*.txt
+!/src/test/resources/batch-synthetic.csv
+serial_data_sample.csv
+/private/
+/local-data/
+
+# Account files, environment secrets, and key material.
+.env
+.env.*
+*.properties
+*credentials*.json
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+
+# Diagnostics, captures, generated research, and local analysis state.
+*.log
+*.log.*
+*.pcap
+*.pcapng
+/captures/
+/logs/
+/graphify-out/
+/research/output/
+__pycache__/
+*.pyc

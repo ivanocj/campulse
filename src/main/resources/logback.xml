@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Safe console bootstrap; ApplicationLogging configures the owned rolling files in main(). -->
+<configuration>
+    <conversionRule conversionWord="safeEx" class="com.ivanocj.cameras.availability.infrastructure.logging.SafeThrowableConverter"/>
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <target>System.err</target>
+        <encoder>
+            <charset>UTF-8</charset>
+            <pattern>%date{yyyy-MM-dd'T'HH:mm:ss.SSSXXX,UTC} %-5level [%thread] %logger{48} %msg%n%safeEx</pattern>
+        </encoder>
+    </appender>
+    <root level="WARN"><appender-ref ref="CONSOLE"/></root>
+</configuration>

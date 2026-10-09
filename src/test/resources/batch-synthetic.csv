@@ -1,0 +1,18 @@
+Serial,Description
+AAAA-000001-DEMO,Synthetic camera 01
+CCCC-000002-DEMO,Synthetic camera 02
+DDDD-000003-DEMO,Synthetic camera 03
+WWWW-000004-DEMO,Synthetic camera 04
+AAES-000005-DEMO,Synthetic camera 05
+DEAA-000006-DEMO,Synthetic camera 06
+FDTAA-000007-DEMO,Synthetic camera 07
+SECRUI-000008-DEMO,Synthetic camera 08
+FFFF-000009-DEMO,Synthetic camera 09
+GGGG-000010-DEMO,Synthetic camera 10
+HHHH-000011-DEMO,Synthetic camera 11
+IIII-000012-DEMO,Synthetic camera 12
+XXXX-000013-DEMO,Synthetic camera 13
+NNNN-000014-DEMO,Synthetic unknown prefix 14
+WXH-000015-DEMO,Synthetic unknown prefix 15
+GWELL:01234,Synthetic GWell identifier
+IOTVIDEO:demo-device-key,Synthetic IoTVideo key

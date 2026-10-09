@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Tests use isolated/capture appenders; never create logs in the real user's home. -->
+<configuration>
+    <root level="OFF"/>
+</configuration>
